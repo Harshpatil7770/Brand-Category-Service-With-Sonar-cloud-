@@ -1,0 +1,38 @@
+2022-07-20 22:03:29.107  INFO 21644 --- [main] c.x.e.service.CategoryServiceImplTest    : Starting CategoryServiceImplTest using Java 17.0.3 on Harshawardhan-PA with PID 21644 (started by patil_ha in C:\Users\patil_ha\steer_4\Brand-Category-Service)
+2022-07-20 22:03:29.120  INFO 21644 --- [main] c.x.e.service.CategoryServiceImplTest    : No active profile set, falling back to 1 default profile: "default"
+2022-07-20 22:03:30.781  INFO 21644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-20 22:03:30.863  INFO 21644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2022-07-20 22:03:31.771  INFO 21644 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-20 22:03:31.853  INFO 21644 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-20 22:03:32.096  INFO 21644 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-20 22:03:32.336  INFO 21644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-20 22:03:32.910  INFO 21644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-20 22:03:32.954  INFO 21644 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-07-20 22:03:33.996  INFO 21644 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-20 22:03:34.032  INFO 21644 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-20 22:03:35.187  WARN 21644 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-20 22:03:38.250  INFO 21644 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-20 22:03:38.334  INFO 21644 --- [main] c.x.e.service.CategoryServiceImplTest    : Started CategoryServiceImplTest in 9.668 seconds (JVM running for 11.172)
+2022-07-20 22:03:38.894  INFO 21644 --- [main] c.x.ecart.service.CategoryServiceImpl    : addNewCategory() called
+2022-07-20 22:03:38.937  INFO 21644 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-20 22:03:38.940  INFO 21644 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-20 22:03:38.968  INFO 21644 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-20 22:04:07.239  INFO 19072 --- [main] c.x.e.service.CategoryServiceImplTest    : Starting CategoryServiceImplTest using Java 17.0.3 on Harshawardhan-PA with PID 19072 (started by patil_ha in C:\Users\patil_ha\steer_4\Brand-Category-Service)
+2022-07-20 22:04:07.241  INFO 19072 --- [main] c.x.e.service.CategoryServiceImplTest    : No active profile set, falling back to 1 default profile: "default"
+2022-07-20 22:04:08.771  INFO 19072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-20 22:04:08.870  INFO 19072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+2022-07-20 22:04:09.689  INFO 19072 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-20 22:04:09.764  INFO 19072 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-20 22:04:09.983  INFO 19072 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-20 22:04:10.208  INFO 19072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-20 22:04:10.739  INFO 19072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-20 22:04:10.766  INFO 19072 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-07-20 22:04:11.491  INFO 19072 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-20 22:04:11.500  INFO 19072 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-20 22:04:12.463  WARN 19072 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-20 22:04:15.400  INFO 19072 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-07-20 22:04:15.477  INFO 19072 --- [main] c.x.e.service.CategoryServiceImplTest    : Started CategoryServiceImplTest in 8.69 seconds (JVM running for 10.058)
+2022-07-20 22:04:15.980  INFO 19072 --- [main] c.x.ecart.service.CategoryServiceImpl    : addNewCategory() called
+2022-07-20 22:04:16.028  INFO 19072 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-20 22:04:16.033  INFO 19072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-20 22:04:16.045  INFO 19072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
